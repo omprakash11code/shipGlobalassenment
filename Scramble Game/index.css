@@ -1,0 +1,87 @@
+
+
+/* Basic reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.game-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+    border: 2px solid #4a90e2;
+}
+
+h1 {
+    font-size: 24px;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.scrambled-word {
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 15px;
+    margin-bottom: 15px;
+    color: #000000;
+}
+
+.hint {
+    font-size: 14px;
+    color: #666666;
+    margin-bottom: 10px;
+}
+
+.timer {
+    font-size: 14px;
+    color: #ff0000;
+    margin-bottom: 20px;
+}
+
+.input-field {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    flex: 1;
+    margin: 0 5px;
+}
+
+.refresh-btn {
+    background-color: #7a7a7a;
+    color: #ffffff;
+}
+
+.check-btn {
+    background-color: #4a90e2;
+    color: #ffffff;
+}
+
+.check-btn:hover, .refresh-btn:hover {
+    opacity: 0.9;
+}
